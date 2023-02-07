@@ -4,12 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="src/bootstrap/bootstrap.css" rel="stylesheet">
-    <script src="src/bootstrap/bootstrap.bundle.js"></script>
+    <link href="static/bootstrap/bootstrap.css" rel="stylesheet">
+    <script src="static/bootstrap/bootstrap.bundle.js"></script>
 
     <title>Метлик</title>
 </head>
 <body>
+    <!-- Header -->
+    <header class="header sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand fs-4 text-white mb-0 h1 d-flex align-items-center gap-2">
+                    <img src="static/logos/logo.svg" width="32" height="32" alt="Метлик">
+                    Метлик
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbar-items"
+                        aria-controls="navbar-items"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Nav -->
+                <div class="collapse navbar-collapse" id="navbar-items">
+                    <div class="navbar-nav me-auto">
+<!--                        <div class="nav-item">-->
+<!--                            <a href="#" class="nav-link text-center active">-->
+<!--                                Пробная вкладка-->
+<!--                            </a>-->
+<!--                        </div>-->
+                    </div>
+                </div>
+                <!-- Nav -->
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
     <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
         <h1 class="text-primary">
             Метлик
